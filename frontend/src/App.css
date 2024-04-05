@@ -1,0 +1,31 @@
+.App {
+}
+
+.App nav > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.App nav > ul > li + li {
+    margin-left: 1rem;
+}
+
+.App .pintura-editor {
+    box-shadow: 0 0 0 1px #eee;
+}
+
+.box {
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.img-preview {
+    overflow: hidden;
+}
+
+.top-gallery {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    border: 3px solid #8182e3;
+    margin: 5px;
+    max-width: 200px; /* 원하는 크기로 조정 */
+    height: 150px; /* 원하는 크기로 조정 */
+    object-fit: contain; /* 이미지 비율 유지하면서 지정된 크기에 맞추기 */
+}
+
+.image-container {
+    position: relative;
+}
